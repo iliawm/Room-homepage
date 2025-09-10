@@ -26,7 +26,7 @@ useEffect(() => {
                     ham.classList.toggle("active");
                     
                 }}>
-                    <img src="/icon-hamburger.svg" alt="" className="iconham"/>
+                    <img src="icon-hamburger.svg" alt="" className="iconham"/>
                 </div>
                 <div className="title">room
                 </div>
@@ -41,7 +41,7 @@ useEffect(() => {
             <div className="desc-cont">
             <h1 className="titledesc">Discover innovative ways to decorate</h1>
             <p className="descP">We provide unmatched quality, comfort, and style for property owners across the country. Our experts combine form and function in bringing your vision to life. Create a room in your own style with our collection and make your property a reflection of you and what you love</p>
-            <button className="explore-button">SHOP NOW <img src="/icon-arrow.svg" alt="" className="arrow"/></button>
+            <button className="explore-button">SHOP NOW <img src="icon-arrow.svg" alt="" className="arrow"/></button>
             <div className="contentbox-oversize">
             <button className="buttonL" ><img src="icon-angle-left.svg" alt="" className="leftsvg"/></button>
         <button className="buttonR"><img src="icon-angle-right.svg" alt="" className="leftsvg"/></button>
@@ -50,7 +50,7 @@ useEffect(() => {
         </div>
     
         <div className="mid-cont">
-            <img src="/image-about-dark.jpg" alt="" className="midimg" />
+            <img src="image-about-dark.jpg" alt="" className="midimg" />
                     <div className="AboutContainern">
             <div className="aboutn">
                 <h1 className="aboutTitlen">ABOUT OUR FURNITURE</h1>
@@ -58,7 +58,7 @@ useEffect(() => {
             </div>
         </div>
         <div className="botcontainern">
-            <img src="/image-about-light.jpg" alt="" className="botimgcontn" />
+            <img src="image-about-light.jpg" alt="" className="botimgcontn" />
         </div>
         </div>
         <div className="AboutContainer">
@@ -68,7 +68,7 @@ useEffect(() => {
             </div>
         </div>
         <div className="botcontainer">
-            <img src="/image-about-light.jpg" alt="" className="botimgcont" />
+            <img src="image-about-light.jpg" alt="" className="botimgcont" />
         </div>
         </>
     );
