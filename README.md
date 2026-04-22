@@ -1,12 +1,40 @@
-# React + Vite
+# 🪑 Room Homepage (Frontend Mentor Challenge)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a solution to the **Room Homepage Challenge** on [Frontend Mentor](https://www.frontendmentor.io/). It is a responsive landing page built with React and Vite, featuring a custom image carousel and mobile-first navigation.
 
-Currently, two official plugins are available:
+## ✨ Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Custom Carousel/Slider**: Fully functional image and text slider built from scratch without external libraries.
+- **Mobile-First Design**: Responsive layout that shifts seamlessly between column (mobile) and row (desktop) views.
+- **Interactive Navigation**: Hamburger menu with smooth open/close animations for smaller screens.
+- **Pixel Perfect Styling**: High-fidelity implementation of the provided design mockup (Over 61% CSS).
 
-## Expanding the ESLint configuration
+## 🛠️ Built With
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Framework**: [React](https://react.dev/)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **Styling**: Pure CSS (Flexbox & Grid)
+- **Deployment**: GitHub Pages (via GitHub Actions)
+
+## 🚀 Live Demo
+
+You can view the live version of this project here:
+👉 **[Live Site URL](https://iliawm.github.io/Room-homepage/)**
+
+## 📸 Screenshot
+
+![Room Homepage Screenshot](./public/screenshot.jpg) 
+
+
+## 🧠 What I Learned
+
+This project was excellent practice for:
+- Managing complex state in React for a custom slider (tracking current slide index).
+- Implementing responsive navigation patterns without relying on UI libraries.
+- Configuring Vite for deployment to GitHub Pages.
+
+## 📦 Local Development
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/iliawm/Room-homepage.git
